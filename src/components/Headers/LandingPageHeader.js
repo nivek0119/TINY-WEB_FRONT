@@ -48,7 +48,7 @@ function LandingPageHeader() {
       // const email = userData.user.email;
       const newQuick = { full };
       const quickRegister = await Axios.post(
-        "http://localhost:5000/users/quick",
+        "https://tinyweb.herokuapp.com/users/quick",
         newQuick
       );
     } catch (err) {

@@ -19,7 +19,7 @@ function IndexHeader() {
   useEffect(() => {
     const checkLoggedIn = async () => {
       try {
-        var getlink = "http://localhost:5000/users/" + params.z
+        var getlink = "https://tinyweb.herokuapp.com/users/" + params.z
 
         const a = await Axios.post(getlink);
         setfound(a.data.found);

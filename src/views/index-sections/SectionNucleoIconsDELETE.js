@@ -50,7 +50,7 @@ function SectionNucleoIcons() {
       };
 
       var t = await Axios.post(
-        "http://localhost:5000/users/deleteCustom",
+        "https://tinyweb.herokuapp.com/users/deleteCustom",
         data,
         config
       );

@@ -21,6 +21,7 @@ function LandingPage() {
 
 
   const { userData, setUserData } = useContext(UserContext);
+
   
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {

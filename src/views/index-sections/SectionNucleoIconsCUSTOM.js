@@ -95,7 +95,7 @@ function SectionNucleoIcons() {
       const email = userData.user.email;
       const newQuick = { full, short, email, title };
       const customRegister = await Axios.post(
-        "http://localhost:5000/users/custom",
+        "https://tinyweb.herokuapp.com/users/custom",
         newQuick, config
       );
 
