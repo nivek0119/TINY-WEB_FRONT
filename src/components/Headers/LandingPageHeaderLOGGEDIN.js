@@ -111,7 +111,7 @@ function LandingPageHeader() {
         progress: undefined,
       });
 
-      navigator.clipboard.writeText(quickRegister.data.short)
+      //navigator.clipboard.writeText("tiny-web.netlify.app/"+quickRegister.data.short)
       toast.success("SHORTENED LINK : " + "tiny-web.netlify.app/"+quickRegister.data.short, {
         position: "top-center",
         autoClose: false,
