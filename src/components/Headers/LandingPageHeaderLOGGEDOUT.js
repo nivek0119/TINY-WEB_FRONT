@@ -82,7 +82,7 @@ function LandingPageHeader() {
         newQuick
       );
 
-      navigator.clipboard.writeText(quickRegister.data.short)
+      navigator.clipboard.writeText("tiny-web.netlify.app/"+quickRegister.data.short)
 
       toast.success('Shortened Your URL NIGGA..!! 😎 and Copied To Clipboard 😁', {
         position: "bottom-center",
@@ -95,7 +95,7 @@ function LandingPageHeader() {
         });
 
       
-      toast.success("SHORTENED LINK : "+quickRegister.data.short, {
+      toast.success("SHORTENED LINK : "+"tiny-web.netlify.app/"+quickRegister.data.short, {
         position: "top-center",
         autoClose: false,
         hideProgressBar: false,

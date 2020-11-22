@@ -99,7 +99,7 @@ function SectionNucleoIcons() {
         newQuick, config
       );
 
-      navigator.clipboard.writeText(short)
+      navigator.clipboard.writeText("tiny-web.netlify.app/"+short)
 
       toast.success('Shortened Your URL NIGGA..!! 😎 and Copied To Clipboard 😁', {
         position: "bottom-center",
@@ -111,7 +111,7 @@ function SectionNucleoIcons() {
         progress: undefined,
         });
 
-      toast.success("SHORTENED LINK : "+customRegister.data.addedLink.short, {
+      toast.success("SHORTENED LINK : "+"tiny-web.netlify.app/"+customRegister.data.addedLink.short, {
         position: "top-center",
         autoClose: false,
         hideProgressBar: false,
