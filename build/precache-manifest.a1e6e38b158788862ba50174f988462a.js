@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "512ea1424a152587bcbfd2e2a437da7e",
+    "revision": "5fc6b98001340d827f731b7612f434f0",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.1781c263.chunk.css"
   },
   {
-    "revision": "64b9262d518333c4369e",
+    "revision": "f2fb1c4a2a998517345c",
     "url": "/static/css/main.318f8b87.chunk.css"
   },
   {
@@ -20,16 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.54d26548.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64b9262d518333c4369e",
-    "url": "/static/js/main.753d807b.chunk.js"
+    "revision": "f2fb1c4a2a998517345c",
+    "url": "/static/js/main.e4838bf5.chunk.js"
   },
   {
     "revision": "9f3fdab3f86a3b0f2aa6",
     "url": "/static/js/runtime-main.f693082c.js"
-  },
-  {
-    "revision": "facbbdb787d77f975904ba9fa99b15c6",
-    "url": "/static/media/BackImg1.facbbdb7.jpg"
   },
   {
     "revision": "ff7d633a8f24b133d25012a90bac96e1",
@@ -44,12 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/clouds.61c4e000.png"
   },
   {
+    "revision": "1331ba97560cc13103d379a8843ad1dc",
+    "url": "/static/media/federico-beccari.1331ba97.jpg"
+  },
+  {
     "revision": "7812184c3710d9623c684956fe048ddd",
     "url": "/static/media/fog-low.7812184c.png"
   },
   {
-    "revision": "be9fa468a029a195601370492c15519d",
-    "url": "/static/media/login-image.be9fa468.jpg"
+    "revision": "44274a4597a19a5a5ec4c32258e04f25",
+    "url": "/static/media/header.44274a45.jpg"
   },
   {
     "revision": "48ac036da7c7923266266f63746fc5f1",
