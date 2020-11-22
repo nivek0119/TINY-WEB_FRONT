@@ -38,9 +38,6 @@ function SectionNucleoIcons() {
             <Container>
 
               <h1>YOUR SHORTENED LINKS</h1>
-
-              <br />
-              
               <br />
               <br />
 
@@ -91,11 +88,7 @@ function SectionNucleoIcons() {
 
                 <h1>YOUR SHORTENED LINKS</h1>
                 <br />
-                <Button onClick={() => {
-                  window.location.reload();
-                }} className="btn-round ml-1" color="info" type="button">
-                  Re-Fresh
-                </Button>
+                
                 <br />
                 <br />
 
@@ -114,6 +107,12 @@ function SectionNucleoIcons() {
 
                   </Table>
                 </TableContainer>
+                <br />
+                <Button onClick={() => {
+                  window.location.reload();
+                }} color="primary" type="button">
+                  Re-Fresh
+                </Button>
               </Container>
             </div>{" "}
 
