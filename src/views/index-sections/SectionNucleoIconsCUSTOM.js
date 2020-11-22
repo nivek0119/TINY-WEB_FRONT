@@ -145,7 +145,7 @@ function SectionNucleoIcons() {
         <FormGroup>
             <Label for="exampleEmail">FULL URL</Label>
             <Input
-              type="email"
+              type="text"
               name="email"
               id="exampleEmail"
               placeholder="Enter FULL URL"
@@ -157,7 +157,7 @@ function SectionNucleoIcons() {
 
             <Label for="exampleEmail">CUSTOM BACKHALF</Label>
             <Input
-              type="email"
+              type="text"
               name="email"
               id="exampleEmail"
               placeholder="Enter Custom BackHalf ... Only Emojis Also Work 🤩"
@@ -169,7 +169,7 @@ function SectionNucleoIcons() {
 
             <Label for="exampleEmail">GIVE A TITLE</Label>
             <Input
-              type="email"
+              type="text"
               name="email"
               id="exampleEmail"
               placeholder="Enter title"

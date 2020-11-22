@@ -34,7 +34,7 @@ function RegisterPage() {
     try {
 
       if (email=="" || email==undefined || email==null) {
-        toast.error('EMAIL Required for login ..!! 🤦‍♂️', {
+        toast.error('Username Required for login ..!! 🤦‍♂️', {
           position: "bottom-right",
           autoClose: 5000,
           hideProgressBar: false,
@@ -100,7 +100,7 @@ function RegisterPage() {
       <div
         className="page-header"
         style={{
-          backgroundImage: "url(" + require("assets/img/login-image.jpg") + ")",
+          backgroundImage: "url(" + require("assets/img/federico-beccari.jpg") + ")",
         }}
       >
         <div className="filter" />
@@ -108,12 +108,14 @@ function RegisterPage() {
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" lg="4">
-              <Card className="card-register ml-auto mr-auto">
+              <Card className="card-register ml-auto mr-auto" style={{
+                background:"black"
+              }}>
                 <h3 className="title mx-auto">Welcome</h3>
 
                 <Form className="register-form">
-                  <label>Email</label>
-                  <Input onChange={(e) => setEmail(e.target.value)} placeholder="Email" type="text" />
+                  <label>Username</label>
+                  <Input onChange={(e) => setEmail(e.target.value)} placeholder="Username" type="text" />
 
                   <label>Password</label>
                   <Input onChange={(e) => setPassword(e.target.value)} placeholder="Password" type="password" />
@@ -128,12 +130,12 @@ function RegisterPage() {
             </Col>
           </Row>
         </Container>
-        <div className="footer register-footer text-center">
+        {/* <div className="footer register-footer text-center">
           <h6>
             © {new Date().getFullYear()}, made with{" "}
             <i className="fa fa-heart heart" /> by 
           </h6>
-        </div>
+        </div> */}
       </div>
     </>
   );

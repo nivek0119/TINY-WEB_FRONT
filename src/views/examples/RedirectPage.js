@@ -62,10 +62,12 @@ function IndexHeader() {
               <div className="title-brand">
 
                 <h1 >{title}</h1>
-                <h4 >{fullLink}</h4>
+                <h4 >Full URL : {fullLink}</h4>
 
                 <h3>Do you Want to redirect  ??</h3>
 
+                <br></br>
+                <h4>Click yes below</h4>
                 <br></br>
 
                 <div className="fog-low">
@@ -87,11 +89,21 @@ function IndexHeader() {
             }}
           />
 
-          <h3 className="category category-absolute">
+          {/* <h3 className="category category-absolute">
             <Button
               className="title-brand"
               type="button"
               onClick={yes}
+            > YES</Button>
+          </h3> */}
+
+<h3 className="category category-absolute">
+            <Button
+              className="title-brand"
+              type="submit"
+              onClick={yes}
+              color="primary"
+              
             > YES</Button>
           </h3>
 

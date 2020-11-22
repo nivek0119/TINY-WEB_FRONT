@@ -47,12 +47,12 @@ function LandingPage() {
           <SectionNucleoIconsTABLE />
           <SectionNucleoIconsDELETE />
 
-          <div className="footer register-footer text-center">
+          {/* <div className="footer register-footer text-center">
           <h6>
             © {new Date().getFullYear()}, made with{" "}
             <i className="fa fa-heart heart" /> by 
           </h6>
-        </div>
+        </div> */}
           
           
 
@@ -63,12 +63,12 @@ function LandingPage() {
             <ExamplesNavbarLOGGEDOUT />
             <LandingPageHeaderLOGGEDOUT />
             <ToastContainer />
-            <div className="footer register-footer text-center">
+            {/* <div className="footer register-footer text-center">
           <h6>
             © {new Date().getFullYear()}, made with{" "}
             <i className="fa fa-heart heart" /> by 
           </h6>
-        </div>
+        </div> */}
 
           </>
         )}

@@ -146,7 +146,7 @@ function LandingPageHeader() {
       <div
         style={{
           backgroundImage:
-            "url(" + require("assets/img/BackImg3.jpg") + ")",
+            "url(" + require("assets/img/header.jpg") + ")",
         }}
         className="page-header"
         data-parallax={true}
@@ -162,6 +162,7 @@ function LandingPageHeader() {
             <h1>WELCOME {userData.user.displayName} !!</h1>
             <br />
             <br />
+            <h3><b>Streamline your website URLs with a click</b></h3>
             <br />
             <br />
 
@@ -169,8 +170,11 @@ function LandingPageHeader() {
               <Input onChange={(e) => setfull(e.target.value)} placeholder="Enter Full URL Here" type="text" />
             </FormGroup>
 
-            <Button onClick={submitQuickLoggedin} className="btn-round" color="neutral" type="button" outline>
+            {/* <Button onClick={submitQuickLoggedin} className="btn-round" color="neutral" type="button" outline>
               BRO... SHORT THIS URL FOR ME
+            </Button> */}
+            <Button onClick={submitQuickLoggedin} color="primary" type="submit">
+              BRO... SHORTEN THIS URL FOR ME
             </Button>
 
             <br />

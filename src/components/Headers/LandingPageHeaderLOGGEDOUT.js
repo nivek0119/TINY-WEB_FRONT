@@ -119,14 +119,14 @@ function LandingPageHeader() {
     }
   };
 
-  const BackImg = ["assets/img/BackImg1.jpg"];
+  const BackImg = ["assets/img/BackImg3.jpg"];
 
   return (
     <>
       <div
         style={{
           backgroundImage:
-            "url(" + require("assets/img/BackImg1.jpg") + ")",
+            "url(" + require("assets/img/BackImg3.jpg") + ")",
         }}
         className="page-header"
         data-parallax={true}
@@ -138,20 +138,21 @@ function LandingPageHeader() {
         <Container>
           <div className="motto text-center">
 
-          <h1>YO NIGGA !!</h1>
+          <h1>YO BROO !!</h1>
             <br />
             <br />
+            <h3><b>Streamline your website URLs with a click</b></h3>
             <br />
             
             <br />
 
               <FormGroup >
-              <Label for="exampleEmail">ENTER THE FULL URL BELOW</Label>
+              {/* <Label for="exampleEmail">ENTER THE FULL URL BELOW</Label> */}
                 <Input onChange={(e) => setfull(e.target.value)} placeholder="Enter Full URL Here" type="text" />
               </FormGroup>
 
               <Button onClick={submitQuick} className="btn-round" color="neutral" type="button" outline>
-              BRO... SHORT THIS URL FOR ME
+              BRO... SHORTEN THIS URL FOR ME
             </Button>
             
           </div>

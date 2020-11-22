@@ -81,7 +81,7 @@ function LandingPageHeader() {
       <div
         style={{
           backgroundImage:
-            "url(" + require("assets/img/BackImg1.jpg") + ")",
+            "url(" + require("assets/img/BackImg3.jpg") + ")",
         }}
         className="page-header"
         data-parallax={true}
@@ -93,9 +93,10 @@ function LandingPageHeader() {
         <Container>
           <div className="motto text-center">
 
-          <h1>WELCOME NIGGA !!</h1>
+          <h1>WELCOME BROOO !!</h1>
             <br />
             <br />
+            <h3><b>Streamline your website URLs with a click</b></h3>
             <br />
             
             <br />
@@ -105,7 +106,7 @@ function LandingPageHeader() {
               </FormGroup>
 
               <Button onClick={submitQuick} className="btn-round" color="neutral" type="button" outline>
-              BRO... SHORT THIS URL FOR ME
+              BRO... SHORTEN THIS URL FOR ME
             </Button>
 
 

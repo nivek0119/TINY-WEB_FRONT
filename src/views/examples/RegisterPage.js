@@ -32,7 +32,7 @@ function RegisterPage() {
     try {
 
       if (email == "" || email == undefined || email == null) {
-        toast.error('EMAIL Field should not be empty', {
+        toast.error('Username Field should not be empty', {
           position: "bottom-right",
           autoClose: 5000,
           hideProgressBar: false,
@@ -129,7 +129,7 @@ function RegisterPage() {
       <div
         className="page-header"
         style={{
-          backgroundImage: "url(" + require("assets/img/login-image.jpg") + ")",
+          backgroundImage: "url(" + require("assets/img/federico-beccari.jpg") + ")",
         }}
       >
         <div className="filter" />
@@ -144,8 +144,8 @@ function RegisterPage() {
 
 
                 <Form className="register-form">
-                  <label>Email</label>
-                  <Input onChange={(e) => setEmail(e.target.value)} placeholder="Email" type="text" />
+                  <label>Username</label>
+                  <Input onChange={(e) => setEmail(e.target.value)} placeholder="Username" type="text" />
 
                   <label>DISPLAY NAME</label>
                   <Input onChange={(e) => setDisplayName(e.target.value)} placeholder="display name" type="text" />
@@ -166,12 +166,7 @@ function RegisterPage() {
             </Col>
           </Row>
         </Container>
-        <div className="footer register-footer text-center">
-          <h6>
-            © {new Date().getFullYear()}, made with{" "}
-            <i className="fa fa-heart heart" /> by
-          </h6>
-        </div>
+        
       </div>
     </>
   );
