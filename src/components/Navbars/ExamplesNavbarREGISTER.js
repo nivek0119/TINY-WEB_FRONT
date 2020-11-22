@@ -110,7 +110,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://github.com/nivek0119/URL-SHORTNER"
+                href="https://github.com/nivek0119/TINY-WEB_FRONT"
                 target="_blank"
                 title="Star on GitHub"
               >

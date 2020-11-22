@@ -110,31 +110,37 @@ function ExamplesNavbar() {
         >
           <Nav navbar>
           <NavItem>
-            <Button onClick={Login} className="btn-round" color="neutral" type="button" outline>
-              LOGIN 
+            <Button onClick={Login} className="btn-round" color="neutral" type="button">
+              <b style={{
+                color:"black",
+                paddingtop:1
+              }}>LOGIN</b> 
             </Button>
             </NavItem>
 
           <NavItem>
-          <Button onClick={Register} className="btn-round" color="neutral" type="button" outline>
-              REGISTER 
+          <Button onClick={Register} className="btn-round" color="neutral" type="button">
+              <b style={{
+                color:"black",
+                paddingtop:1
+              }}>REGISTER</b> 
             </Button>
             </NavItem>
             
             
            
             
-            {/* <NavItem>
+            <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
+                href="https://github.com/nivek0119/TINY-WEB_FRONT"
                 target="_blank"
                 title="Star on GitHub"
               >
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
-            </NavItem> */}
+            </NavItem>
           </Nav>
         </Collapse>
       </Container>

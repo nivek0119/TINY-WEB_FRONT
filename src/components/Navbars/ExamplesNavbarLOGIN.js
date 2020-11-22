@@ -16,6 +16,7 @@ import {
   Button,
 } from "reactstrap";
 import { useHistory } from "react-router-dom";
+import zIndex from "@material-ui/core/styles/zIndex";
 
 function ExamplesNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -98,14 +99,17 @@ function ExamplesNavbar() {
         >
           <Nav navbar>
           <NavItem>
-            <Button onClick={Register} className="btn-round" color="neutral" type="button" outline>
-              REGISTER INSTEAD
+            <Button onClick={Register} className="btn-round" color="neutral" type="button">
+            <b style={{
+                color:"black",
+                paddingtop:1
+              }}>REGISTER INSTEAD</b>
             </Button>
             </NavItem>
             <NavItem>
               <NavLink
-                data-placement="bottom"
-                href="https://github.com/nivek0119/URL-SHORTNER"
+                data-placement="top"
+                href="https://github.com/nivek0119/TINY-WEB_FRONT"
                 target="_blank"
                 title="Star on GitHub"
               >

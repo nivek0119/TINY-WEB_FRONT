@@ -79,7 +79,7 @@ function ExamplesNavbar() {
           <NavbarBrand
             data-placement="bottom"
             to="/landing-page"
-            target="_blank"
+            target="blank"
             tag={Link}
           >
             {/* <img src="Logo.png" /> */}
@@ -109,12 +109,23 @@ function ExamplesNavbar() {
 
             <NavItem>
               <Button onClick={logout} className="btn-round" color="neutral" type="button" outline>
-                LOGOUT
+              <b style={{
+                color:"black",
+                paddingtop:1
+              }}>LOGOUT</b>
             </Button>
             </NavItem>
 
 
             {/* <NavItem>
+
+            <Button onClick={Login} className="btn-round" color="neutral" type="button">
+              <b style={{
+                color:"black",
+                paddingtop:1
+              }}>LOGIN</b>
+
+
             <Button onClick={Login} className="btn-round" color="neutral" type="button" outline>
               LOGIN 
             </Button>
